@@ -15,7 +15,6 @@ print_color() {
   local color=$1
   local message=$2
   echo -ne "${color}${message}${RESET}"
-}
 
 # Update the header
 print_color "$PURPLE" "Ziloxen Installer\n"
